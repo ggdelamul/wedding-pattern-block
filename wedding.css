@@ -1,0 +1,39 @@
+.background {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+}
+.background img {
+  width: 100%;
+  height: 100%;
+}
+.background .wp-block-media-text {
+  background-color: white;
+  width: 50%;
+  position: absolute;
+  top: 25%;
+  left: calc(50% / 2);
+  border-radius: 5px;
+}
+.background .wp-block-media-text figure {
+  width: 100%;
+  border-radius: 5px;
+}
+.background .wp-block-media-text figure img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  .background .wp-block-media-text {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+}
+/*CSS POUR SWICTH IMAGE*/
+.switch {
+  display: none !important;
+}
