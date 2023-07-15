@@ -4,7 +4,11 @@
 
 Incorporation de la blbiothèque GSAP js pour l'effet
 
-## 2 block Pattern: un block image avec un cgangement de source tout les 2 seconde
+Ce bloc fonctionne dans un conteneur prenant l'integralité de la largeur.
+
+Dans la version mobile, la fenetre passe en dessous de l'image.
+
+## 2 block Pattern: un block image avec un changement de source tout les 2 seconde
 
 ## 3 A suivre
 
